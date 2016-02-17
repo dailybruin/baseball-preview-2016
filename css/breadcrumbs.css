@@ -63,6 +63,16 @@
   content: normal;
 }
 
-.1:before{
-  border-color: #ddd #ddd #ddd;
+/*get rid of that annoying first part */
+ul li:first-child a:before {
+	background-color: #ddd;
+}
+
+ul li:first-child a:hover::before {
+	background-color: #99db76;
+}
+
+#breadcrumbs .current a{
+  color: black;
+  text-decoration: underline;
 }
