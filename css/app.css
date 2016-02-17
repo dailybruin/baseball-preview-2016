@@ -1,6 +1,28 @@
 h1{
   font-size: 65px;
-  font-family: 'IM Fell DW Pica', serif;
+  font-family: 'Fjalla One', sans-serif;
   text-align: center;
   font-weight: 800;
+}
+
+h2{
+  font-size: 40px;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 600;
+}
+
+.roster-names{
+  font-size: 40px;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 400;
+}
+
+.top .row{
+  margin: 0px;
+  max-width: none;
+}
+
+ul{
+  list-style-type: none;
+  border: none;
 }
