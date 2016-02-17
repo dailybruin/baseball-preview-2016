@@ -6,13 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Baseball Preview | 2016</title>
     <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/flipping.css" />
     <link rel="stylesheet" href="css/app.css" />
   </head>
   <body>
 
     <!--card pictures-->
-    <div class="reveal" id="exampleModal1" data-reveal>
-      <img src="img/cards/KortPeterson.png" alt="Kort Peterson"/>
+    <div class="reveal" id="KortPeterson" data-reveal>
+      <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+      	<div class="flipper">
+      		<div class="front">
+      			<!-- front content -->
+            <img src="img/cards/KortPeterson.png" alt="Kort Peterson"/>
+      		</div>
+      		<div class="back">
+      			<!-- back content -->
+            <img src="img/cards/KortPetersonBack.png" alt="Kort Peterson"/>
+      		</div>
+      	</div>
+      </div>
+      <p>
+        (flip card for more information about Kort Peterson)
+      </p>
       <button class="close-button" data-close aria-label="Close modal" type="button">
         <span aria-hidden="true">&times;</span>
       </button>
@@ -20,7 +35,7 @@
 
     <!--cards-->
     <div class="row">
-      <p><a data-open="exampleModal1">Click me for a modal</a></p>
+      <p><a data-open="KortPeterson">Click me for a modal</a></p>
     </div>
 
     <!--baseball field (NEEDS MAPS) -->
