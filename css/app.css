@@ -48,7 +48,6 @@ ul{
 }
 
 #graphic-image {
-	z-index: -1;
 	max-height: 100%;
 	max-width: 100%;
 	height: 100vh;
@@ -60,42 +59,42 @@ ul{
 	position: absolute;
 	left: 25%;
 	top: 66%;
-	color: black;
+	color: blue;
 }
 
 #shortstop {
 	position: absolute;
 	left: 35%;
 	top: 56%;
-	color: black;
+	color: blue;
 }
 
 #second-base {
 	position: absolute;
 	left: 58%;
 	top: 56%;
-	color: black;
+	color: blue;
 }
 
 #first-base {
 	position: absolute;
 	left: 65%;
 	top: 66%;
-	color: black;
+	color: blue;
 }
 
 #catcher {
 	position: absolute;
 	left: 45%;
 	top: 90%;
-	color: black;
+	color: blue;
 }
 
 #left-field {
 	position: absolute;
 	left: 12%;
 	top: 35%;
-	color: black;
+	color: blue;
 }
 
 .top {
@@ -106,17 +105,18 @@ ul{
 	position: absolute;
 	left: 45%;
 	top: 25%;
-	color: black;
+	color: blue;
 }
 
 #right-field {
 	position: absolute;
 	left: 75%;
 	top: 35%;
-	color: black;
+	color: blue;
 }
 
 #bench-container {
+	display: inline-block;
 	margin: -10em 0 10em 3em;
 /*	margin-top: -5em;
 	margin-bottom: 5em;*/
@@ -124,10 +124,25 @@ ul{
 
 #benchwarmer {
 	color: black;
-	display: inline;
+	display: inline-flex;
 	float: left;
 	margin: 0;
 	padding: 0 15px 0 0;
 }
 
-
+#img-container a:hover{
+	box-shadow: 0 3px 25px #000;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+	font-size: 125%;
+}
+#bench-container a:hover{
+	box-shadow: 0 3px 25px #000;
+	-webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -ms-transition: all .4s ease-in-out;
+  font-size: 125%;
+}
