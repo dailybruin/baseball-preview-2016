@@ -1,51 +1,44 @@
-/* entire container, keeps perspective */
-.flip-container {
-	perspective: 1000;
+#f1_container {
+  position: relative;
+  margin: 10px auto;
+  max-width: 475px;
+  min-height: 650px;
+  z-index: 1;
 }
-	/* flip the pane when hovered */
-	.flip-container:hover .flipper, .flip-container.hover .flipper {
-		transform: rotateY(180deg);
+#f1_container {
+  perspective: 1000;
+}
+#f1_card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s linear;
+}
+#f1_container:hover #f1_card {
+  transform: rotateY(180deg);
+  box-shadow: -5px 5px 5px #aaa;
+}
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.face.back {
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+	#f1_container {
+	  position: relative;
+	  margin: 10px auto;
+	  min-width: 80px;
+	  min-height: 400px;
+	  z-index: 1;
 	}
-
-.flip-container, .front, .back {
-	height: 33em;
-	width: 27em;
-	margin-right: 0px;
-	padding-right: 0px;
-}
-
-/* flip speed goes here */
-.flipper {
-	transition: 0.6s;
-	transform-style: preserve-3d;
-
-	position: relative;
-	height: 100%;
-	width: 100%;
-}
-
-/* hide back of pane during swap */
-.front, .back {
-	backface-visibility: hidden;
-
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-/* front pane, placed above back */
-.front {
-	z-index: 2;
-	/* for firefox 31 */
-	transform: rotateY(0deg);
-}
-
-/* back, initially hidden pane */
-.back {
-	transform: rotateY(180deg);
-}
-
-.flipper img{
-	max-width: 100%;
-	max-height: 100%;
 }
