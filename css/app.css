@@ -1,12 +1,16 @@
+body {
+	background-color: white;
+}
+
 h1{
-  font-size: 65px;
+  font-size: 5vmax;
   font-family: 'Fjalla One', sans-serif;
   text-align: center;
   font-weight: 800;
 }
 
 h2{
-  font-size: 30px;
+  font-size: 2.4vmax;
   font-family: 'Fjalla One', sans-serif;
   font-weight: 600;
 }
@@ -27,50 +31,86 @@ ul{
   border: none;
 }
 
-#image-container {
-	height:100%;
-}
-
-#container {
+#img-container {
 	position: relative;
 /*	height: 722px;
 	width: 970px;*/
-/*	max-height: 100vh;
-	max-width: 200vw;*/
 /*	max-width: 100%;
 	max-height: 100%;*/
-	height: 47em;
-	width: 67em;
+/*	height: 47em;
+	width: 67em;*/
+	max-height: 47em;
+	max-width: 67em;
+	height: 85vh;
+	width: 70vw;
 	margin: auto;
+	display: block;
 }
 
 #graphic-image {
-	height: 100%;
-	width: 100%;
+	max-height: 100%;
+	max-width: 100%;
+	height: 100vh;
+	width: 100vw;
 	position: absolute;
 }
 
-#player1 {
-/*	z-index: 50;*/
+#third-base {
 	position: absolute;
-	left: 150px;
-	top: 450px;
+	left: 22%;
+	top: 66%;
 	color: black;
 }
 
-#player2 {
-/*	z-index: 50;*/
+#shortstop {
 	position: absolute;
-	left: 300px;
-	top: 300px;
+	left: 30%;
+	top: 56%;
 	color: black;
 }
 
-.test {
-	background-color: black;
-	opacity: 0.5;
+#second-base {
+	position: absolute;
+	left: 53%;
+	top: 56%;
+	color: black;
+}
+
+#first-base {
+	position: absolute;
+	left: 63%;
+	top: 66%;
+	color: black;
+}
+
+#catcher {
+	position: absolute;
+	left: 40%;
+	top: 85%;
+	color: black;
+}
+
+#left-field {
+	position: absolute;
+	left: 12%;
+	top: 35%;
+	color: black;
 }
 
 .top {
   background-color: #fff;
+}
+
+#center-field {
+	position: absolute;
+	left: 40%;
+	top: 25%;
+	color: black;
+}
+
+#right-field {
+	position: absolute;
+	left: 70%;
+	top: 35%;
+	color: black;
 }
