@@ -97,10 +97,6 @@ ul{
 	color: blue;
 }
 
-.top {
-  background-color: #fff;
-}
-
 #center-field {
 	position: absolute;
 	left: 45%;
@@ -130,19 +126,38 @@ ul{
 	padding: 0 15px 0 0;
 }
 
+/* CODE THAT WE DONT NEED ANYMORE :(
 #img-container a:hover{
-	box-shadow: 0 3px 25px #000;
-	-webkit-transition: all .4s ease-in-out;
-	-moz-transition: all .4s ease-in-out;
-	-o-transition: all .4s ease-in-out;
-	-ms-transition: all .4s ease-in-out;
-	font-size: 125%;
+	box-shadow: 0 5px 45px #000;
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+	border:1px solid #;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
 }
 #bench-container a:hover{
-	box-shadow: 0 3px 25px #000;
-	-webkit-transition: all .4s ease-in-out;
-  -moz-transition: all .4s ease-in-out;
-  -o-transition: all .4s ease-in-out;
-  -ms-transition: all .4s ease-in-out;
-  font-size: 125%;
+	 box-shadow: 0 5px 45px #000;
+	-webkit-transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  -o-transition: all .1s ease-in-out;
+  -ms-transition: all .1s ease-in-out;
+	border:1px solid #;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+}
+
+.img-size{
+	height: 88px;
+	width: 88px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+}*/
+
+.top {
+  background-color: #fff;
 }
