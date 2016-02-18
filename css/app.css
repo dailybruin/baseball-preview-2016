@@ -26,3 +26,37 @@ ul{
   list-style-type: none;
   border: none;
 }
+
+#graphic-image {
+	height: 722px;
+	width: 970px;
+	position: absolute;
+	margin: auto;
+}
+
+#container {
+	position: relative;
+	height: 722px;
+	width: 970px;
+}
+
+#player1 {
+/*	z-index: 50;*/
+	position: absolute;
+	left: 150px;
+	top: 450px;
+	color: black;
+}
+
+#player2 {
+/*	z-index: 50;*/
+	position: absolute;
+	left: 300px;
+	top: 300px;
+	color: black;
+}
+
+.test {
+	background-color: black;
+	opacity: 0.5;
+}

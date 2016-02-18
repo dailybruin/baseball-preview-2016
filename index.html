@@ -44,20 +44,17 @@
 
       <!--baseball field (NEEDS MAPS) -->
       <div class="row">
-        <div class="large-3 columns">
-          <h2>Roster:</h2>
-          <ul class="roster-names">
-            <li>Kort Peterson</li>
-            <li>Someone else</li>
-          </ul>
-        </div>
-        <div class="large-8 large-offset-1 columns">
-          <img src="img/baseballtemplate.png" id="graphic-image" usemap="#planetmap">
+        <div class="large-12 columns">
+          <div id="container">
+            <img src="img/baseballtemplate.png" id="graphic-image" usemap="#planetmap">
+            <h2><a data-open="KortPeterson" id="player1">Kort Peterson</a></h2>
+            <h2><a data-open="HowardHuang" id="player2">Howard Huang</a></h2>
+          </div>
           <map name="planetmap">
-            <area shape="circle" coords="132,485,135" href="#museum-1">
-            <area shape="circle" coords="761,159,135" href="#museum-2">
-            <area shape="circle" coords="530,745,135" href="#museum-3">
-            <area shape="circle" coords="875,535,135" href="#museum-4">
+            <area class="test" shape="circle" coords="132,485,135" href="#museum-1">
+            <area class="test" shape="circle" coords="761,159,135" href="#museum-2">
+            <area class="test" shape="circle" coords="530,745,135" href="#museum-3">
+            <area class="test" shape="circle" coords="875,535,135" href="#museum-4">
           </map> <!--end of graphic map column-->
         </div>
       </div>
