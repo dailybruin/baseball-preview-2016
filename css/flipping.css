@@ -1,8 +1,8 @@
 #f1_container {
   position: relative;
   margin: 10px auto;
-  max-width: 475px;
-  min-height: 650px;
+	max-width: 475px;
+	min-height: 650px;
   z-index: 1;
 }
 #f1_container {
@@ -39,6 +39,17 @@
 	  margin: 10px auto;
 	  min-width: 80px;
 	  min-height: 400px;
+	  z-index: 1;
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 1200px) {
+	#f1_container {
+	  position: relative;
+	  margin: 10px auto;
+	  max-width: 280px;
+	  min-height: 380px;
+		max-height: 550px;
 	  z-index: 1;
 	}
 }
