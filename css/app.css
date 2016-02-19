@@ -270,7 +270,8 @@ ul{
 		border-bottom: 1px solid black;
 	}
 	.img-responsive {
-
+		display: block;
+		margin: 30px auto;
 	}
 	.row {
 		padding: 20px;
