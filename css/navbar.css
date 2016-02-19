@@ -94,3 +94,8 @@ nav span {
 .movetext {
   top: -100%;
 }
+
+.nav-container{
+  min-height: 20px;
+  max-height: 70px;
+}
