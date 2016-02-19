@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/flipping.css" />
     <link rel="stylesheet" href="css/tabs.css" />
     <link rel="stylesheet" href="css/breadcrumbs.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/app.css" />
   </head>
   <body>
@@ -31,21 +32,45 @@
     </div>
 
     <div class="container top">
-      <h1>
-        Baseball Preview | 2016
-      </h1>
-
-      <!--baseball field (NEEDS MAPS) -->
       <div class="row">
-        <div class="large-12 columns">
+        <div class="navbars">
+          <header>
+          <nav>
+            <span class="movetext">Daily Bruin</span>
+            <img src="img/DailyBruinLogo.png" />
+            <a href="#portion1" class="active">Portion1</a>
+            <a href="#portion2">Portion2</a>
+            <a href="#portion3">Portion3</a>
+            <a href="#portion4">Portion4</a>
+          </nav>
+          </header>
+        </div>
+      </div>
+      <div class = "row top-margin">
+        <div class="small-2 columns">
+
+        </div>
+        <div class="small-8 columns">
+          <h1>
+            Baseball Preview | 2016
+          </h1>
+        </div>
+        <div class="small-2 columns">
+
+        </div>
+      </div>
+
+      <!--baseball field  -->
+      <div class="row">
+        <div class="small-12 columns">
           <div id="img-container">
             <img src="img/baseballtemplate.png" id="graphic-image" usemap="#planetmap">
             <map name="planetmap">
-              <area shape="circle" coords="255, 1080, 95" a data-open="KortPeterson"> <!-- Brian Gadsby -->
-              <area shape="circle" coords="255, 1280, 95" a data-open="KortPeterson"> <!-- Tucker Forbes -->
-              <area shape="circle" coords="255, 1480, 95" a data-open="KortPeterson"> <!-- Jake Bird -->
-              <area shape="circle" coords="255, 1680, 95" a data-open="KortPeterson"> <!-- Nathan Hadley -->
-              <area shape="circle" coords="1212, 1720, 95" a data-open="KortPeterson"> <!-- Daniel Rosica -->
+              <area shape="circle" coords="255, 1080, 95" a data-open="BrianGadsby"> <!-- Brian Gadsby -->
+              <area shape="circle" coords="255, 1280, 95" a data-open="TruckerForbes"> <!-- Tucker Forbes -->
+              <area shape="circle" coords="255, 1480, 95" a data-open="JakeBird"> <!-- Jake Bird -->
+              <area shape="circle" coords="255, 1680, 95" a data-open="NathanHadley"> <!-- Nathan Hadley -->
+              <area shape="circle" coords="1215, 1720, 95" a data-open="DaninelRosica"> <!-- Daniel Rosica -->
               <area shape="circle" coords="1829, 1560, 95" a data-open="KortPeterson"> <!-- Kort Peterson -->
             </map>
           </div>
@@ -53,7 +78,7 @@
         </div>
       </div>
 
-    </div>
+  </div>
 
   <div class="container tabular">
     <ul class="tabs" id="breadcrumbs">
@@ -76,10 +101,15 @@
     </div>
   </div>
 
+  <div class="row" id="portion1">
+    <h1>aFDAKJFLKAJEL</h1>
   </div>
+
+
     <script src="js/vendor/jquery.min.js"></script>
     <script src="js/vendor/what-input.min.js"></script>
     <script src="js/foundation.min.js"></script>
+    <script src="js/scroll.js"></script>
     <script src="js/app.js"></script>
     <script src="js/jquery.rwdImageMaps.js"></script>
     <script src="js/jquery.maphilight.js"></script>
