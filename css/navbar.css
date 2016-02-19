@@ -94,3 +94,7 @@ nav span {
 .movetext {
   top: -100%;
 }
+
+header nav a {
+  text-align: center;
+}
