@@ -39,21 +39,25 @@ ul{
 	max-height: 100%;*/
 /*	height: 47em;
 	width: 67em;*/
-	max-height: 47em;
+/*	max-height: 47em;
 	max-width: 67em;
 	height: 85vh;
 	width: 70vw;
 	margin: auto;
-	display: block;
+	display: block;*/
+	height: 100%;
+	width: 100%;
+	padding: 0px 25%;
 }
 
+/*
 #graphic-image {
 	max-height: 100%;
 	max-width: 100%;
 	height: 100vh;
 	width: 100vw;
 	position: absolute;
-}
+}*/
 
 #third-base {
 	position: absolute;
