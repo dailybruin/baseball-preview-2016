@@ -222,7 +222,7 @@ ul{
 }
 
 .parallax-image-background1{
-	height: 250em;
+	height: 150em;
 	width: 100%%;
 	display: block;
 	margin-left: auto;
@@ -242,6 +242,10 @@ ul{
 .content{
 	padding: 0px 10%;
 }
+
+.db-image-caption{
+	font-size: .75em;
+	opacity: .8;
 
 footer {
     color: rgba(0,0,0, 0.7);
