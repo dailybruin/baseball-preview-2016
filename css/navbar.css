@@ -85,9 +85,11 @@ nav img {
 
 nav span {
   position: absolute;
-  left: 40px;
+  left: 43%;
   top: 10px;
   font-weight: bold;
+  font-family: 'Bitter', serif;
+  font-size: 2.5vmax;
   transition: all 0.5s ease-in;
 }
 
