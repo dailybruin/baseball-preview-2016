@@ -106,3 +106,20 @@ header nav {
   min-height: 20px;
   max-height: 70px;
 }
+
+header nav a #title {
+  position: absolute;
+  left: 25%;
+  padding: 0 5em 0 5em;
+  display: inline-block;
+}
+
+header nav a #title-left {
+  padding: 0 5em !important;
+}
+
+header nav a #title-right {
+  padding: 0 0 0 5em !important;
+}
+
+
