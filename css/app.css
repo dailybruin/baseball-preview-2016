@@ -263,3 +263,22 @@ footer {
     border-top: 1px solid rgba(0,0,0, 0.1);
     text-align: center;
 }
+
+.image-hover:hover{
+	box-shadow: 0 5px 45px #000;
+ -webkit-transition: all .7s ease-in-out;
+ -moz-transition: all .7s ease-in-out;
+ -o-transition: all .7s ease-in-out;
+ -ms-transition: all .7s ease-in-out;
+ width: 175%;
+ height: 175%;
+	margin-bottom: 3%;
+}
+
+.image-hover{
+	-webkit-transition: all .7s ease-in-out;
+	-moz-transition: all .7s ease-in-out;
+	-o-transition: all .7s ease-in-out;
+	-ms-transition: all .7s ease-in-out;
+	margin-bottom: 1%;
+}
