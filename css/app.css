@@ -214,7 +214,7 @@ ul{
 }
 
 .parallax-image-background{
-	height: 50%;
+	height: 100em;
 	width: 60%;
 	display: block;
 	margin-left: auto;
@@ -222,7 +222,7 @@ ul{
 }
 
 .parallax-image-background1{
-	height: 150em;
+	height: 250em;
 	width: 100%%;
 	display: block;
 	margin-left: auto;
