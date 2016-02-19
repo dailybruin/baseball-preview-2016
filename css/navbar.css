@@ -1,14 +1,14 @@
 
 header nav {
   text-align: right;
-  background: rgba(204, 255, 255,0.6);
-  color: black;
+  background: rgba(0, 0, 0,0.6);
+  color: white;
   font-size: 1em;
   position: fixed;
   width: 100%;
   z-index: 10;
   font-family: 'Fjalla One', sans-serif;
-  font-size: 20px;
+  font-size: 1vw;
 }
 
 header nav a {
@@ -18,6 +18,7 @@ header nav a {
   padding: 2em 1em .5em;
   -webkit-transition: all .3s ease-in;
 }
+
 .small {
   padding: .5em 1em;
 }
@@ -79,7 +80,7 @@ nav img {
 }
 
 .move {
-  top: -60px;
+  top: -110%;
 }
 
 nav span {
@@ -91,5 +92,5 @@ nav span {
 }
 
 .movetext {
-  top: -30px;
+  top: -100%;
 }
