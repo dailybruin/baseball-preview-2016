@@ -98,3 +98,8 @@ nav span {
 header nav a {
   text-align: center;
 }
+
+.nav-container{
+  min-height: 20px;
+  max-height: 70px;
+}
