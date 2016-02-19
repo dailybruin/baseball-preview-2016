@@ -242,6 +242,18 @@ ul{
 	opacity: .8;
 }
 
+.block_photo_right{
+    float: right;
+    width: 15em;
+    margin: 15px -100px 15px 15px;
+}
+
+.block_photo_left{
+    float: left;
+    width: 15em;
+    margin: 15px 15px 15px -100px;
+}
+
 
 footer {
     color: rgba(0,0,0, 0.7);
