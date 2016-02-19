@@ -205,6 +205,8 @@ ul{
 
 .top-margin{
 	margin-top: 2.5% !important;
+/*	margin-bottom: 2.5%;*/
+	padding-bottom: 50px;
 }
 
 .content-margin{
