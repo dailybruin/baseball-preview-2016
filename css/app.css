@@ -19,6 +19,38 @@ h2{
   font-weight: 600;
 }
 
+.nav {
+	margin: auto;
+}
+
+.nav h3 {
+	font-size: 1.8vmax;
+	display: inline;
+	text-align: center;
+}
+
+#logo-before {
+	max-width: 350px;
+	display: inline;
+	margin: auto;
+}
+
+.char1 { transform: rotate(6deg); }
+.char2 { transform: rotate(12deg); }
+.char3 { transform: rotate(18deg); }
+.char4 { transform: rotate(24deg); }
+.char5 { transform: rotate(30deg); }
+.char6 { transform: rotate(36deg); }
+.char7 { transform: rotate(42deg); }
+.char8 { transform: rotate(48deg); }
+.char9 { transform: rotate(54deg); }
+.char10 { transform: rotate(60deg); }
+.char11 { transform: rotate(66deg); }
+.char12 { transform: rotate(72deg); }
+.char13 { transform: rotate(78deg); }
+.char14 { transform: rotate(84deg); }
+.char15 { transform: rotate(90deg); }
+
 .roster-names{
   font-size: 40px;
   font-family: 'Fjalla One', sans-serif;
@@ -173,6 +205,8 @@ ul{
 
 .top-margin{
 	margin-top: 2.5% !important;
+/*	margin-bottom: 2.5%;*/
+	padding-bottom: 50px;
 }
 
 .content-margin{
@@ -212,4 +246,12 @@ ul{
 .db-image-caption{
 	font-size: .75em;
 	opacity: .8;
+
+footer {
+    color: rgba(0,0,0, 0.7);
+    padding: 8px 0 17px 0;
+    font-size: 0.7em;
+    clear: both;
+    border-top: 1px solid rgba(0,0,0, 0.1);
+    text-align: center;
 }
