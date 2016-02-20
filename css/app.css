@@ -1,4 +1,4 @@
-html{
+html {
 	background-image: url("../img/bg.jpg");
 }
 
@@ -8,8 +8,7 @@ body {
 
 h1{
   font-size: 5vmax;
-  font-family: 'Fjalla One', serif;
-  text-align: center;
+  font-family: 'Bitter', serif;
   font-weight: 800;
 }
 
@@ -21,12 +20,35 @@ h2{
 }
 
 h4 {
-	font-size: 1.2vmax;
+	font-size: 12px;
 /*	display: inline;*/
 }
 
 p {
 	font-family: 'Georgia W01 Regular', Georgia;
+}
+
+.fieldtext {
+	position: absolute;
+	display: inline;
+	right: 65vw;
+	top: 60vh;
+	left: 8vw;
+}
+
+.fieldtext p {
+	font-family: 'Bitter', serif;
+	font-size: 2vmin;
+/*	background-color: black;
+  	color: #fff; 
+  	padding: 0.5rem;
+  
+  	-webkit-box-decoration-break: clone;
+  	box-decoration-break: clone;*/
+}
+
+#img-container img{
+	position: relative;
 }
 
 .nav {
@@ -82,83 +104,7 @@ ul{
                 inset 0 0 50px #000,
                 inset 0 0 50px #000;
 	*/
-	margin-bottom: 5%;
-}
-
-
-#graphic-image {
-
-}
-
-#third-base {
-	position: absolute;
-	left: 25%;
-	top: 66%;
-	color: blue;
-}
-
-#shortstop {
-	position: absolute;
-	left: 35%;
-	top: 56%;
-	color: blue;
-}
-
-#second-base {
-	position: absolute;
-	left: 58%;
-	top: 56%;
-	color: blue;
-}
-
-#first-base {
-	position: absolute;
-	left: 65%;
-	top: 66%;
-	color: blue;
-}
-
-#catcher {
-	position: absolute;
-	left: 45%;
-	top: 90%;
-	color: blue;
-}
-
-#left-field {
-	position: absolute;
-	left: 12%;
-	top: 35%;
-	color: blue;
-}
-
-#center-field {
-	position: absolute;
-	left: 45%;
-	top: 25%;
-	color: blue;
-}
-
-#right-field {
-	position: absolute;
-	left: 75%;
-	top: 35%;
-	color: blue;
-}
-
-#bench-container {
-	display: inline-block;
-	margin: -10em 0 10em 3em;
-/*	margin-top: -5em;
-	margin-bottom: 5em;*/
-}
-
-#benchwarmer {
-	color: black;
-	display: inline-flex;
-	float: left;
-	margin: 0;
-	padding: 0 15px 0 0;
+	margin-bottom: 0;
 }
 
 /* CODE THAT WE DONT NEED ANYMORE :(
@@ -209,7 +155,7 @@ ul{
 
 .parallax-image-background{
 	height: 100em;
-	width: 60%;
+	width: 70%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -228,6 +174,7 @@ ul{
 }
 
 .center-image{
+	width: 100%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -258,14 +205,14 @@ ul{
 	.block_photo_left {
 		width: 100%;
 		display: block;
-		margin: 30px 50px 50px 50px;
+		margin: 30px 0px 50px 0px;
 		border-top: 1px solid black;
 		border-bottom: 1px solid black;
 	}
 	.block_photo_right {
 		width: 100%;
 		display: block;
-		margin: 30px 50px 50px 50px;
+		margin: 30px 0px 50px 0px;
 		border-top: 1px solid black;
 		border-bottom: 1px solid black;
 	}
@@ -276,6 +223,17 @@ ul{
 	.row {
 		padding: 20px;
 	}
+	.parallax-image-background{
+		height: 100em;
+		width: 85%;
+		min-width: 20em;
+/*		max-width: 100%;
+		height: auto;*/
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 }
 
 @media only screen and (min-width: 40.063em) and (max-width: 64em){
@@ -299,6 +257,13 @@ ul{
 	}
 	.row {
 		padding: 40px;
+	}
+	.parallax-image-background{
+		height: 100em;
+		width: 85%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 
